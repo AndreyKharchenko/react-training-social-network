@@ -1,0 +1,29 @@
+.paginator {
+    margin: 10px;
+}
+
+.pageNumber {
+    padding: 2px;
+    border: 1px solid gray;
+}
+
+.selectedPage {
+    font-weight: bold;
+    background-color: yellow;
+    padding: 2px;
+    border: 1px solid gray;
+    margin: 0 5px 0 5px;
+    border-color: black;
+}
+
+.paginator button {
+    margin: 0 7px 0 7px;
+    background-color: rgb(62, 62, 231);
+    color: white;
+}
+
+.paginator button:hover {
+    margin: 0 7px 0 7px;
+    background-color: gold;
+    color: black;
+}

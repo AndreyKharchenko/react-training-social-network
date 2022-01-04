@@ -1,0 +1,64 @@
+
+
+.formControl.error input,
+.formControl.error textarea {
+    border: 2px solid red;
+}
+
+.formControl.error span {
+    color: red;
+}
+
+.formSummaryError {
+    border: 1px solid red;
+    padding: 5px;
+    color: red;
+}
+
+/*Стилизация Textarea для Profile*/
+.texareaItem {
+    width: 250px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+/*Стилизация Input для Login*/
+.inputItem[type="text"],
+.inputItem[type="password"] {
+    width: 205px;
+    height: 24px;
+    margin-bottom: 10px;
+    
+}
+
+.inputItem[type="checkbox"] {
+    margin-bottom: 17px;
+}
+
+/*Стилизация обертки(всей страницы)*/
+.loginWrapper {
+    margin-left: 50px;
+}
+
+/*Стилизация кнопки залогиниться*/
+.loginButton button {
+    background-color: rgb(62, 62, 231);
+	width: 150px;
+	height: 30px;
+	border-radius: 7px;
+	color: white;
+    margin-bottom: 10px;
+}
+
+.loginButton button:hover {
+    background-color: gold;
+	width: 150px;
+	height: 30px;
+	border-radius: 7px;
+	color: black;
+    margin-bottom: 10px;
+}
+
+.captchaImg {
+    margin-bottom: 10px;
+}

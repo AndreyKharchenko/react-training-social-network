@@ -1,0 +1,78 @@
+.dialogs {
+	display: grid;
+	grid-template-columns: 2fr 10fr;
+	margin-left: 30px;
+}
+
+.dialogsItems {
+	
+	padding: 10px;
+	color: white; /*Этот класс прописан в компоненте Dialogs*/
+}
+
+.dialogsItems img {
+	width: 25px;
+	height: 25px;
+	border-radius: 30px;
+}
+
+.dialogsItems a {
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.dialogsItems a:hover {
+	color: rgb(62, 62, 231);
+}
+
+.dialogsItems .active {
+	color: gold;
+}
+
+.messages {
+	padding: 10px;
+}
+
+.messages .message {
+	color: white; /*Этот класс прописан в компоненте Dialogs*/
+}
+
+.dialog {
+	margin: 10px; /*Этот класс прописан в комроненте Message*/
+}
+
+.area {
+	margin-top: 30px; /*Поле ввода сообщений*/
+}
+
+.area textarea {
+	width: 250px;
+    height: 30px;
+    border-radius: 2px;
+	margin-bottom: 10px;
+}
+
+.sendButton button {
+	background-color: rgb(62, 62, 231);
+	width: 150px;
+	height: 30px;
+	border-radius: 7px;
+	color: white;
+}
+
+.sendButton button:hover {
+	background-color: gold;
+	width: 150px;
+	height: 30px;
+	border-radius: 7px;
+	color: black;
+}
+
+
+
+
+
+
+

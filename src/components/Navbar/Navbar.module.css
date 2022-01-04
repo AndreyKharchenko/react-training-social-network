@@ -1,0 +1,55 @@
+.nav {
+	grid-area: n;
+	background-color: rgb(62, 62, 231);
+	padding: 20px;
+	
+}
+
+.item a {
+	color: white;
+	text-decoration: none;
+	margin: 40px;
+	padding-bottom: 15px;
+}
+
+.item a:hover {
+	color: gold;
+	text-decoration: none;
+	margin: 40px;
+	padding-bottom: 15px;
+}
+
+.item {
+	padding-bottom: 5px;
+}
+
+.item a.activeLink {
+	color: gold;
+}
+
+.nav h3 {
+	color: gold;
+	font-family: Arial;
+}
+
+.friends {
+	padding: 5px 10px 5px 10px;
+	margin-left: 30px;
+}
+
+
+.friends a {
+	text-decoration: none;
+	color: white;
+	margin: 3px;
+}
+
+.friends a:hover {
+	color: gold;
+}
+
+.friends img {
+	width: 25px;
+	height: 25px;
+	border-radius: 30px;
+}

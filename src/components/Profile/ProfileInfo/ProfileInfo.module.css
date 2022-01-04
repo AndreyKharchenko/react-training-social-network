@@ -1,0 +1,68 @@
+.descriptionBlock {
+	padding: 10px;
+}
+
+.info {
+	padding: 10px;
+	margin-left: 30px;
+}
+
+.mainPhoto {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.descriptionBlock input[type="file"] {
+	padding-bottom: 15px;
+	opacity: 0;
+	color: transparent;
+}
+
+.descriptionBlock label {
+	color:rgb(62, 62, 231);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.descriptionBlock label:hover {
+	color: black;
+}
+
+.descriptionBlock strong {
+	color:rgba(218, 186, 9, 0.753);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.descriptionWrapper {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.descriptionData {
+	padding-left: 10px;
+}
+
+.contact {
+	padding-left: 10px;
+}
+
+.editProfileButton {
+	width: 120px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: rgb(62, 62, 231);
+    color: white;
+    padding: 5px;
+	margin-top: 30px;
+}
+
+.editProfileButton:hover {
+	width: 120px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: gold;
+    color: black;
+    padding: 5px;
+	margin-top: 30px;
+}

@@ -1,0 +1,49 @@
+.header {
+	grid-area: h;
+	background-color: rgb(62, 62, 231);
+	border-bottom: 2px solid white;
+}
+.naimen {
+	color: white;
+	font-family: Arial;
+	font-style: bold;
+	font-size: 23px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 18px;
+}
+
+.header img {
+	width: 50px;
+}
+
+.loginBlock {
+	float: right;
+	padding-top: 10px;
+	padding-right: 25px;
+	color: white;
+}
+
+.loginBlock a {
+	color: white;
+}
+
+
+
+.loginBlock button {
+	border-radius: 7px;
+	width: 120px;
+	height: 28px;
+	background-color: #E8E8E8;
+	color: black;
+}
+
+.loginBlock button:hover {
+	border-radius: 7px;
+	width: 120px;
+	background-color: gold;
+	color: white;
+}
+
+
+

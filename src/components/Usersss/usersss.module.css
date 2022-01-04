@@ -1,0 +1,30 @@
+.userPhoto {
+    width: 100px;
+    height: 100px;
+}
+
+span {
+    cursor: pointer;
+}
+
+.users {
+    margin: 20px 50px;
+}
+
+.FollowButton button{
+    width: 100px;
+    height: 27px;
+    border-radius: 3px;
+    background-color: rgb(62, 62, 231);
+    color: white;
+    padding: 5px;
+}
+
+.FollowButton button:hover {
+    width: 100px;
+    height: 27px;
+    border-radius: 3px;
+    background-color: gold;
+    color: black;
+    padding: 5px;
+}
